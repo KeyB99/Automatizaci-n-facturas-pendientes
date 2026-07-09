@@ -1,0 +1,1016 @@
+2026-07-09T00:00:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:00:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:00:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:01:05.345-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:01:05.347-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:01:08.606-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:01:08.606-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:01:08.607-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:04:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:04:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:04:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:04:53.131-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:04:53.131-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:04:55.678-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:04:55.679-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:04:55.681-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:08:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:08:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:08:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:08:53.355-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:08:53.355-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:08:56.090-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:08:56.091-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:08:56.092-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:12:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:12:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:12:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:12:53.136-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:12:53.136-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:12:56.079-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:12:56.079-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:12:56.080-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:16:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:16:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:16:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:16:52.995-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:16:52.995-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:16:55.408-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:16:55.408-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:16:55.408-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:20:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:20:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:20:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:21:00.663-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:21:00.663-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:21:03.396-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:21:03.401-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:21:03.402-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:24:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:24:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:24:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:24:53.119-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:24:53.120-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:24:55.874-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:24:55.874-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:24:55.875-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:28:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:28:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:28:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:28:55.141-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:28:55.141-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:28:57.409-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:28:57.409-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:28:57.409-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:32:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:32:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:32:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:32:53.485-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:32:53.485-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:32:55.399-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:32:55.399-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:32:55.399-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:36:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:36:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:36:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:36:53.411-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:36:53.411-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:36:55.379-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:36:55.379-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:36:55.379-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:40:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:40:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:40:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:40:53.524-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:40:53.524-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:40:56.160-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:40:56.161-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:40:56.162-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:44:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:44:00.017-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:44:00.021-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:44:54.249-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:44:54.249-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:44:56.904-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:44:56.904-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:44:56.906-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:48:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:48:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:48:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:48:53.537-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:48:53.538-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:48:56.367-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:48:56.368-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:48:56.369-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:52:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:52:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:52:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:52:53.132-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:52:53.132-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:52:55.671-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:52:55.672-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:52:55.673-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:56:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T00:56:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T00:56:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T00:56:53.915-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T00:56:53.916-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T00:56:56.578-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T00:56:56.579-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T00:56:56.580-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:00:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:00:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:00:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:01:05.773-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:01:05.773-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:01:08.074-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:01:08.074-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:01:08.076-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:04:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:04:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:04:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:04:53.698-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:04:53.698-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:04:56.854-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:04:56.855-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:04:56.855-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:08:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:08:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:08:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:08:53.330-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:08:53.331-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:08:55.615-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:08:55.615-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:08:55.617-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:12:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:12:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:12:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:12:53.400-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:12:53.400-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:12:56.109-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:12:56.111-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:12:56.113-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:16:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:16:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:16:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:16:53.308-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:16:53.308-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:16:55.515-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:16:55.516-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:16:55.516-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:20:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:20:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:20:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:20:52.809-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:20:52.810-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:20:55.263-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:20:55.263-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:20:55.264-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:24:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:24:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:24:53.730-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:24:53.731-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:24:56.429-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:24:56.430-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:24:56.430-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:28:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:28:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:28:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:29:00.134-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:29:00.134-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:29:02.597-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:29:02.598-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:29:02.599-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:32:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:32:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:32:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:32:57.112-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:32:57.113-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:32:59.527-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:32:59.528-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:32:59.529-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:36:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:36:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:36:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:36:52.970-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:36:52.971-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:36:55.296-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:36:55.297-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:36:55.297-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:40:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:40:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:40:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:40:53.164-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:40:53.166-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:40:55.856-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:40:55.856-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:40:55.858-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:44:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:44:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:44:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:44:53.042-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:44:53.043-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:44:55.918-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:44:55.918-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:44:55.919-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:48:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:48:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:48:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:48:54.631-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:48:54.631-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:48:56.539-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:48:56.540-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:48:56.540-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:52:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:52:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:52:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:52:53.007-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:52:53.008-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:52:55.582-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:52:55.583-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:52:55.584-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:56:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T01:56:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T01:56:00.017-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T01:56:53.466-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T01:56:53.466-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T01:56:56.237-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T01:56:56.237-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T01:56:56.238-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:00:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:00:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:00:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:01:05.278-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:01:05.279-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:01:08.219-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:01:08.219-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:01:08.220-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:04:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:04:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:04:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:04:53.958-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:04:53.959-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:04:56.778-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:04:56.779-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:04:56.779-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:08:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:08:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:08:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:08:53.815-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:08:53.815-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:08:56.689-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:08:56.690-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:08:56.690-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:12:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:12:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:12:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:12:53.950-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:12:53.950-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:12:56.379-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:12:56.380-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:12:56.380-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:16:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:16:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:16:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:16:53.819-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:16:53.819-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:16:56.390-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:16:56.410-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:16:56.411-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:20:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:20:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:20:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:20:53.683-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:20:53.684-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:20:56.404-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:20:56.404-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:20:56.404-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:24:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:24:52.954-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:24:52.954-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:24:55.534-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:24:55.535-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:24:55.536-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:28:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:28:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:28:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:28:52.954-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:28:52.954-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:28:55.155-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:28:55.157-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:28:55.158-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:32:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:32:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:32:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:32:52.996-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:32:52.997-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:32:55.878-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:32:55.878-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:32:55.880-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:36:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:36:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:36:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:36:52.943-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:36:52.944-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:36:55.679-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:36:55.679-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:36:55.680-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:40:53.081-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:40:53.082-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:40:55.701-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:40:55.702-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:40:55.704-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:44:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:44:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:44:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:44:53.116-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:44:53.116-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:44:55.771-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:44:55.771-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:44:55.773-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:48:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:48:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:48:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:48:53.100-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:48:53.101-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:48:55.778-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:48:55.779-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:48:55.779-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:52:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:52:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:52:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:52:53.446-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:52:53.446-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:52:55.780-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:52:55.780-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:52:55.781-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:56:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T02:56:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T02:56:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T02:56:53.706-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T02:56:53.707-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T02:56:56.157-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T02:56:56.158-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T02:56:56.159-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:00:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:00:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:00:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:01:04.286-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:01:04.286-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:01:07.569-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:01:07.570-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:01:07.571-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:04:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:04:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:04:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:04:53.613-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:04:53.613-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:04:59.800-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:04:59.801-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:04:59.801-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:08:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:08:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:08:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:08:53.853-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:08:53.855-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:08:56.729-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:08:56.729-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:08:56.730-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:12:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:12:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:12:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:12:54.373-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:12:54.373-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:12:57.021-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:12:57.022-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:12:57.023-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:16:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:16:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:16:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:16:54.347-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:16:54.348-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:16:57.669-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:16:57.669-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:16:57.669-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:20:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:20:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:20:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:20:54.461-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:20:54.462-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:20:57.020-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:20:57.021-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:20:57.022-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:24:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:24:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:24:53.499-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:24:53.499-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:24:55.601-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:24:55.601-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:24:55.603-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:28:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:28:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:28:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:28:52.876-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:28:52.877-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:28:55.742-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:28:55.743-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:28:55.744-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:32:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:32:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:32:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:32:53.454-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:32:53.454-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:32:55.847-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:32:55.847-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:32:55.849-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:36:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:36:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:36:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:36:53.054-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:36:53.055-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:36:55.357-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:36:55.358-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:36:55.359-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:40:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:40:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:40:53.005-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:40:53.006-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:40:55.032-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:40:55.032-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:40:55.033-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:44:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:44:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:44:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:44:53.083-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:44:53.083-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:44:55.875-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:44:55.876-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:44:55.876-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:48:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:48:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:48:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:48:53.205-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:48:53.205-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:48:55.600-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:48:55.600-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:48:55.601-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:52:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:52:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:52:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:52:53.608-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:52:53.608-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:52:56.494-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:52:56.494-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:52:56.494-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:56:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T03:56:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T03:56:00.018-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T03:56:53.662-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T03:56:53.662-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T03:56:56.279-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T03:56:56.279-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T03:56:56.279-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:00:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:00:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:00:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:01:05.380-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:01:05.381-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:01:08.277-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:01:08.277-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:01:08.278-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:04:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:04:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:04:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:04:53.309-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:04:53.309-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:04:56.328-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:04:56.329-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:04:56.330-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:08:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:08:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:08:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:08:53.360-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:08:53.361-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:08:56.108-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:08:56.108-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:08:56.109-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:12:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:12:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:12:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:12:52.908-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:12:52.909-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:12:55.814-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:12:55.815-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:12:55.815-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:16:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:16:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:16:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:16:53.254-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:16:53.255-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:16:55.980-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:16:55.981-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:16:55.981-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:20:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:20:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:20:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:20:53.064-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:20:53.064-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:20:54.903-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:20:54.903-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:20:54.904-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:24:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:24:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:24:53.126-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:24:53.127-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:24:55.384-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:24:55.385-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:24:55.385-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:28:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:28:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:28:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:28:52.708-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:28:52.709-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:28:55.822-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:28:55.822-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:28:55.823-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:32:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:32:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:32:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:32:52.544-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:32:52.544-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:32:55.516-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:32:55.517-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:32:55.518-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:36:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:36:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:36:00.018-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:36:52.597-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:36:52.597-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:36:55.877-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:36:55.877-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:36:55.877-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:40:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:40:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:40:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:40:52.559-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:40:52.559-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:40:55.059-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:40:55.060-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:40:55.061-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:44:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:44:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:44:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:44:52.649-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:44:52.650-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:44:54.432-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:44:54.432-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:44:54.432-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:48:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:48:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:48:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:48:52.655-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:48:52.655-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:48:54.535-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:48:54.535-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:48:54.536-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:52:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:52:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:52:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:52:53.228-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:52:53.228-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:52:54.975-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:52:54.976-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:52:54.976-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:56:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T04:56:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T04:56:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T04:56:53.815-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T04:56:53.815-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T04:56:55.652-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T04:56:55.653-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T04:56:55.653-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:00:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:00:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:00:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:01:04.150-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:01:04.151-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:01:08.302-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:01:08.302-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:01:08.304-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:04:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:04:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:04:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:04:53.325-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:04:53.325-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:04:56.065-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:04:56.066-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:04:56.066-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:08:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:08:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:08:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:08:53.149-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:08:53.150-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:08:56.026-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:08:56.026-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:08:56.028-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:12:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:12:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:12:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:12:53.033-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:12:53.034-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:12:55.853-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:12:55.853-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:12:55.854-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:15:54.418-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:15:54.418-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:15:54.418-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:16:47.550-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:16:47.550-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:16:50.603-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:16:50.603-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:16:50.603-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:20:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:20:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:20:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:20:53.156-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:20:53.157-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:20:57.024-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:20:57.024-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:20:57.024-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:24:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:24:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:24:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:24:52.587-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:24:52.588-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:24:55.326-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:24:55.327-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:24:55.328-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:28:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:28:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:28:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:28:52.967-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:28:52.967-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:28:55.902-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:28:55.902-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:28:55.903-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:32:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:32:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:32:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:32:53.387-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:32:53.388-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:32:56.172-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:32:56.173-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:32:56.174-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:36:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:36:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:36:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:36:53.446-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:36:53.447-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:36:55.821-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:36:55.822-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:36:55.824-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:40:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:40:53.116-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:40:53.117-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:40:56.181-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:40:56.182-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:40:56.183-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:44:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:44:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:44:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:44:53.056-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:44:53.057-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:44:56.080-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:44:56.080-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:44:56.080-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:48:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:48:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:48:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:48:52.897-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:48:52.898-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:48:54.556-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:48:54.557-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:48:54.558-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:52:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:52:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:52:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:52:52.946-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:52:52.947-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:52:55.689-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:52:55.689-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:52:55.691-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:56:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T05:56:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T05:56:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T05:56:57.531-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T05:56:57.531-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T05:57:00.061-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T05:57:00.062-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T05:57:00.062-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:00:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:00:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:00:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:01:04.141-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:01:04.142-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:01:07.210-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:01:07.211-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:01:07.212-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:04:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:04:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:04:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:04:53.321-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:04:53.321-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:04:56.576-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:04:56.576-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:04:56.577-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:08:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:08:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:08:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:08:53.096-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:08:53.097-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:08:55.746-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:08:55.747-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:08:55.748-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:12:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:12:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:12:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:12:53.203-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:12:53.204-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:12:55.795-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:12:55.796-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:12:55.797-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:16:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:16:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:16:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:16:53.515-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:16:53.516-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:16:55.671-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:16:55.671-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:16:55.673-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:20:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:20:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:20:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:20:53.511-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:20:53.512-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:20:55.698-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:20:55.699-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:20:55.699-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:24:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:24:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:24:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:24:53.453-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:24:53.454-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:24:55.564-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:24:55.565-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:24:55.566-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:28:00.000-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:28:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:28:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:28:52.935-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:28:52.935-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:28:55.472-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:28:55.472-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:28:55.472-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:32:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:32:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:32:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:32:52.514-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:32:52.514-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:32:54.649-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:32:54.649-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:32:54.650-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:36:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:36:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:36:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:36:52.791-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:36:52.791-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:36:55.524-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:36:55.525-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:36:55.525-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:40:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:40:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:40:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:40:52.622-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:40:52.622-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:40:54.831-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:40:54.831-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:40:54.831-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:44:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:44:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:44:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:44:53.935-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:44:53.935-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:44:57.490-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:44:57.490-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:44:57.492-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:48:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:48:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:48:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:48:53.780-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:48:53.781-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:48:55.964-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:48:55.965-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:48:55.966-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:52:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:52:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:52:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:52:53.784-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:52:53.784-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:52:55.892-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:52:55.892-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:52:55.894-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:56:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T06:56:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T06:56:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T06:56:53.830-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T06:56:53.830-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T06:56:56.730-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T06:56:56.731-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T06:56:56.732-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:00:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:00:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:00:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:01:04.107-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:01:04.107-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:01:07.042-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:01:07.042-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:01:07.043-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:04:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:04:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:04:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:04:54.212-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:04:54.212-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:04:56.126-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:04:56.126-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:04:56.126-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:08:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:08:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:08:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:08:53.703-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:08:53.704-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:08:55.477-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:08:55.477-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:08:55.477-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:12:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:12:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:12:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:12:53.044-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:12:53.044-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:12:55.691-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:12:55.691-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:12:55.693-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:16:00.000-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:16:00.000-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:16:00.000-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:16:53.191-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:16:53.192-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:16:55.040-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:16:55.041-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:16:55.042-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:20:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:20:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:20:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:20:53.150-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:20:53.150-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:20:55.555-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:20:55.555-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:20:55.556-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:24:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:24:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:24:00.005-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:24:53.168-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:24:53.168-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:24:54.844-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:24:54.844-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:24:54.844-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:28:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:28:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:28:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:28:53.817-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:28:53.818-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:28:56.394-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:28:56.395-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:28:56.396-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:32:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:32:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:32:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:32:53.125-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:32:53.125-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:32:55.314-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:32:55.315-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:32:55.317-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:36:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:36:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:36:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:36:53.046-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:36:53.046-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:36:55.743-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:36:55.744-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:36:55.745-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:40:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:40:00.002-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:40:00.003-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:40:52.848-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:40:52.848-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:40:54.475-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:40:54.475-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:40:54.475-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:44:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:44:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:44:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:44:52.812-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:44:52.812-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:44:54.584-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:44:54.585-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:44:54.585-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:48:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:48:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:48:00.004-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:48:52.867-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:48:52.868-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:48:54.516-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:48:54.517-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:48:54.518-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:52:00.006-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:52:00.007-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:52:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:52:52.859-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:52:52.859-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:52:56.119-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:52:56.119-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:52:56.119-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:56:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T07:56:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T07:56:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T07:56:53.219-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T07:56:53.219-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T07:56:56.289-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T07:56:56.290-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T07:56:56.291-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:00:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:00:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:00:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:01:05.244-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:01:05.244-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:01:08.631-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:01:08.632-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:01:08.634-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:04:00.008-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:04:00.009-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:04:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:04:55.406-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:04:55.408-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:04:58.265-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:04:58.266-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:04:58.267-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:08:00.014-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:08:00.015-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:08:00.016-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:08:52.673-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:08:52.673-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:08:54.659-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:08:54.659-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:08:54.661-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:12:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:12:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:12:00.001-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:12:52.484-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:12:52.485-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:12:54.381-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:12:54.382-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:12:54.383-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:16:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:16:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:16:00.011-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:16:52.961-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:16:52.962-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:16:54.965-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:16:54.966-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:16:54.967-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:20:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:20:00.012-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:20:00.013-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:20:52.582-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T08:20:52.583-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T08:20:54.659-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 1 facturas faltantes.
+2026-07-09T08:20:54.660-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-09T08:20:54.660-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:24:00.010-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-09T08:24:35.064-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes...
+2026-07-09T08:24:35.086-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando desde: 2026-06-09 00:00:00
+2026-07-09T08:25:06.473-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [SpringApplicationShutdownHook] o.s.c.support.DefaultLifecycleProcessor  : Shutdown phase 2147483647 ends with 1 bean still running after timeout of 30000ms: [taskScheduler]
+2026-07-09T08:25:27.556-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 1 facturas faltantes.
+2026-07-09T10:10:53.800-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-09T10:10:53.926-05:00  WARN 23496 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Desarrollo | Factura: 330184-WSER1-0
+2026-07-09T10:10:54.709-05:00  INFO 23496 --- [Invoice Monitor - Gastoncito] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -1,0 +1,3 @@
+com\monitor\invoices\EmailService.class
+com\monitor\invoices\InvoiceMonitorApplication.class
+com\monitor\invoices\InvoiceMonitorJob.class
