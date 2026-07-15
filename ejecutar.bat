@@ -36,7 +36,7 @@ if %ERRORLEVEL% NEQ 0 (
 echo.
 echo [3/3] Iniciando el monitor...
 echo ============================================================
-echo  El monitor se ejecutara cada 4 minutos.
+echo  El monitor se ejecutara cada 15 minutos.
 echo  NO CIERRES ESTA VENTANA - aqui apareceran los logs.
 echo  Para detener el monitor presiona Ctrl+C
 echo ============================================================

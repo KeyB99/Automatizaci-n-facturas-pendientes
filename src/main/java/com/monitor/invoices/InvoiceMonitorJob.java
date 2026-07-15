@@ -26,23 +26,22 @@ public class InvoiceMonitorJob {
     }
 
     /**
-     * Se ejecuta cada 4 minutos.
-     * Cron: segundo=0, minuto=cada4, hora=*, dia=*, mes=*, diasemana=*
+     * Se ejecuta cada 15 minutos.
+     * Cron: segundo=0, minuto=cada15, hora=*, dia=*, mes=*, diasemana=*
      */
-    @Scheduled(cron = "0 */4 * * * ?")
+    @Scheduled(cron = "0 */15 * * * ?")
     public void monitorMissingInvoices() {
 
-        // Fecha dinámica: desde hace 30 días (para garantizar que detecte los saltos arrastrados)
+        // Fecha dinámica para el SELECT: desde hace 30 días
         String fechaDesde = LocalDate.now().minusDays(30).format(DATE_FMT) + " 00:00:00";
 
         log.info("============================================================");
-        log.info("Iniciando monitoreo de facturas faltantes...");
-        log.info("Consultando desde: {}", fechaDesde);
+        log.info("Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...");
+        log.info("Consultando faltantes desde: {}", fechaDesde);
 
-        String sql = """
+        String insertSql = """
                 WITH rangos AS (
                     SELECT
-                        co.name,
                         iv.company,
                         iv.prefix,
                         MIN(iv.bill_number::BIGINT) AS mn,
@@ -50,30 +49,58 @@ public class InvoiceMonitorJob {
                     FROM billing.invoice iv
                     INNER JOIN core.company co ON iv.company = co.code
                     INNER JOIN core.company_info ci ON iv.company = ci.company
-                    WHERE iv.instant >= ?::TIMESTAMP
-                      AND ci.value = 'GASTONCITO'
+                    WHERE iv.instant >= now()::DATE - '4 DAY'::INTERVAL
+                      --AND ci.value = 'GASTONCITO'
                       AND iv.prefix IS NOT NULL
+
+
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY co.name, iv.company, iv.prefix
                 )
+                INSERT INTO billing.invoice_control
                 SELECT
-                    r.name,
-                    r.company::TEXT || '-' || r.prefix || '-' || gs.n::TEXT AS prefix_number
+                    r.company ,
+                    r.prefix,
+                    gs.n number
                 FROM rangos r
                 CROSS JOIN LATERAL generate_series(r.mn, r.mx) AS gs(n)
-                WHERE NOT EXISTS (
-                    SELECT 1
-                    FROM billing.invoice e
-                    WHERE e.company = r.company
-                      AND e.prefix   = r.prefix
-                      AND e.bill_number::BIGINT = gs.n
-                      AND e.total > 0
+                ON CONFLICT (company,prefix,number) DO NOTHING;
+                """;
+
+        String selectSql = """
+                WITH resume AS (   SELECT
+                        iv.company,
+                        iv.prefix,
+                        MIN(iv.bill_number::BIGINT) AS mn,
+                        MAX(iv.bill_number::BIGINT) AS mx
+                    FROM billing.invoice iv
+                    WHERE iv.instant >= '2026-07-01 00:00:00'
+                      AND iv.prefix IS NOT NULL
+                      AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
+                    GROUP BY iv.company, iv.prefix
                 )
-                ORDER BY r.name, gs.n
+                SELECT *
+                FROM billing.invoice_control ctrl
+                INNER JOIN core.company  co ON ctrl.company =co.code
+                INNER JOIN resume re ON ctrl.company = re.company AND ctrl.prefix = re.prefix
+                    AND ctrl.number >= re.mn
+                LEFT JOIN LATERAL(
+                            SELECT *
+                            FROM billing.invoice  iv
+                            WHERE iv.company=ctrl.company
+                                AND iv.prefix =ctrl.prefix
+                                AND iv.bill_number = ctrl.number::TEXT
+                            ) invs ON TRUE
+                WHERE invs.code IS NULL
+                ORDER BY ctrl.company,ctrl.prefix,ctrl.number
                 """;
 
         try {
-            List<Map<String, Object>> rows = jdbcTemplate.queryForList(sql, fechaDesde);
+            log.info("Paso 1: Insertando datos en invoice_control...");
+            jdbcTemplate.update(insertSql);
+
+            log.info("Paso 2: Consultando faltantes...");
+            List<Map<String, Object>> rows = jdbcTemplate.queryForList(selectSql, fechaDesde);
 
             if (rows.isEmpty()) {
                 log.info("✅ No se encontraron facturas faltantes.");
