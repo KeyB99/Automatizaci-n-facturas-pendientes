@@ -68,31 +68,36 @@ public class InvoiceMonitorJob {
                 """;
 
         String selectSql = """
-                WITH resume AS (   SELECT
+                WITH resume AS (
+                    SELECT
                         iv.company,
                         iv.prefix,
                         MIN(iv.bill_number::BIGINT) AS mn,
                         MAX(iv.bill_number::BIGINT) AS mx
                     FROM billing.invoice iv
-                    WHERE iv.instant >= '2026-07-01 00:00:00'
+                    WHERE iv.instant >= ?::TIMESTAMP
                       AND iv.prefix IS NOT NULL
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY iv.company, iv.prefix
                 )
-                SELECT *
+                SELECT 
+                   co.name,
+                   ctrl.company::TEXT || '-' || ctrl.prefix || '-' || ctrl.number::TEXT AS prefix_number
                 FROM billing.invoice_control ctrl
-                INNER JOIN core.company  co ON ctrl.company =co.code
-                INNER JOIN resume re ON ctrl.company = re.company AND ctrl.prefix = re.prefix
-                    AND ctrl.number >= re.mn
-                LEFT JOIN LATERAL(
-                            SELECT *
-                            FROM billing.invoice  iv
-                            WHERE iv.company=ctrl.company
-                                AND iv.prefix =ctrl.prefix
-                                AND iv.bill_number = ctrl.number::TEXT
-                            ) invs ON TRUE
-                WHERE invs.code IS NULL
-                ORDER BY ctrl.company,ctrl.prefix,ctrl.number
+                INNER JOIN core.company co ON ctrl.company = co.code
+                INNER JOIN resume re
+                    ON ctrl.company = re.company 
+                    AND ctrl.prefix = re.prefix 
+                    AND ctrl.number >= re.mn 
+                    AND ctrl.number <= re.mx
+                WHERE NOT EXISTS (
+                    SELECT 1 
+                    FROM billing.invoice iv 
+                    WHERE iv.company = ctrl.company
+                      AND iv.prefix = ctrl.prefix    
+                      AND iv.bill_number = ctrl.number::TEXT
+                )
+                ORDER BY co.name, ctrl.company, ctrl.prefix, ctrl.number
                 """;
 
         try {
