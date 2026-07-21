@@ -32,8 +32,19 @@ public class InvoiceMonitorJob {
     @Scheduled(cron = "0 0 * * * ?")
     public void monitorMissingInvoices() {
 
-        // Fecha dinámica para el SELECT: desde hace 30 días
-        String fechaDesde = LocalDate.now().minusDays(30).format(DATE_FMT) + " 00:00:00";
+        LocalDate hoy = LocalDate.now();
+        LocalDate fechaInicio;
+
+        // Lógica de 1ra semana vs resto del mes
+        if (hoy.getDayOfMonth() <= 7) {
+            // Si estamos en la primera semana (días 1 a 7), ir 1 semana atrás del día 1 del mes actual
+            fechaInicio = hoy.withDayOfMonth(1).minusDays(7);
+        } else {
+            // A partir del día 8, empezar desde el 1 del mes actual
+            fechaInicio = hoy.withDayOfMonth(1);
+        }
+        
+        String fechaDesde = fechaInicio.format(DATE_FMT) + " 00:00:00";
 
         log.info("============================================================");
         log.info("Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...");
@@ -49,11 +60,9 @@ public class InvoiceMonitorJob {
                     FROM billing.invoice iv
                     INNER JOIN core.company co ON iv.company = co.code
                     INNER JOIN core.company_info ci ON iv.company = ci.company
-                    WHERE iv.instant >= now()::DATE - '4 DAY'::INTERVAL
+                    WHERE iv.instant >= ?::TIMESTAMP
                       --AND ci.value = 'GASTONCITO'
                       AND iv.prefix IS NOT NULL
-
-
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY co.name, iv.company, iv.prefix
                 )
@@ -80,21 +89,21 @@ public class InvoiceMonitorJob {
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY iv.company, iv.prefix
                 )
-                SELECT
+                SELECT 
                    co.name,
                    ctrl.company::TEXT || '-' || ctrl.prefix || '-' || ctrl.number::TEXT AS prefix_number
                 FROM billing.invoice_control ctrl
                 INNER JOIN core.company co ON ctrl.company = co.code
                 INNER JOIN resume re
-                    ON ctrl.company = re.company
-                    AND ctrl.prefix = re.prefix
-                    AND ctrl.number >= re.mn
+                    ON ctrl.company = re.company 
+                    AND ctrl.prefix = re.prefix 
+                    AND ctrl.number >= re.mn 
                     AND ctrl.number <= re.mx
                 WHERE NOT EXISTS (
-                    SELECT 1
-                    FROM billing.invoice iv
+                    SELECT 1 
+                    FROM billing.invoice iv 
                     WHERE iv.company = ctrl.company
-                      AND iv.prefix = ctrl.prefix
+                      AND iv.prefix = ctrl.prefix    
                       AND iv.bill_number = ctrl.number::TEXT
                 )
                 ORDER BY co.name, ctrl.company, ctrl.prefix, ctrl.number
@@ -102,7 +111,7 @@ public class InvoiceMonitorJob {
 
         try {
             log.info("Paso 1: Insertando datos en invoice_control...");
-            jdbcTemplate.update(insertSql);
+            jdbcTemplate.update(insertSql, fechaDesde);
 
             log.info("Paso 2: Consultando faltantes...");
             List<Map<String, Object>> rows = jdbcTemplate.queryForList(selectSql, fechaDesde);
