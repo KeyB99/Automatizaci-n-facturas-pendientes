@@ -1,0 +1,403 @@
+2026-07-15T16:28:34.633-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : Starting InvoiceMonitorApplication v1.0.0 using Java 17.0.2 with PID 17932 (G:\Automatizacion facturas faltantes\target\invoice-monitor-1.0.0.jar started by MIGUELDESAR in G:\Automatizacion facturas faltantes)
+2026-07-15T16:28:34.636-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T16:28:35.313-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : Started InvoiceMonitorApplication in 1.144 seconds (process running for 1.507)
+2026-07-15T17:00:00.012-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T17:00:00.013-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T17:00:00.013-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-06-15 00:00:00
+2026-07-15T17:00:00.014-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T17:00:00.018-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T17:00:01.874-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@76c408ae
+2026-07-15T17:00:01.875-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T17:00:03.724-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T17:00:10.007-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 152 facturas faltantes.
+2026-07-15T17:00:10.009-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62241
+2026-07-15T17:00:10.009-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62242
+2026-07-15T17:00:10.009-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62243
+2026-07-15T17:00:10.009-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62244
+2026-07-15T17:00:10.009-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62245
+2026-07-15T17:00:10.010-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62246
+2026-07-15T17:00:10.010-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62247
+2026-07-15T17:00:10.010-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62248
+2026-07-15T17:00:10.010-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62249
+2026-07-15T17:00:10.011-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62250
+2026-07-15T17:00:10.011-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62251
+2026-07-15T17:00:10.011-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62252
+2026-07-15T17:00:10.011-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62253
+2026-07-15T17:00:10.011-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62254
+2026-07-15T17:00:10.012-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62255
+2026-07-15T17:00:10.012-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62256
+2026-07-15T17:00:10.012-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62257
+2026-07-15T17:00:10.012-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62258
+2026-07-15T17:00:10.012-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62259
+2026-07-15T17:00:10.013-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62260
+2026-07-15T17:00:10.013-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62261
+2026-07-15T17:00:10.013-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62262
+2026-07-15T17:00:10.013-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62263
+2026-07-15T17:00:10.013-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62264
+2026-07-15T17:00:10.014-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62265
+2026-07-15T17:00:10.014-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62266
+2026-07-15T17:00:10.014-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62267
+2026-07-15T17:00:10.014-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62268
+2026-07-15T17:00:10.014-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62269
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62270
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62271
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62272
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62273
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62274
+2026-07-15T17:00:10.015-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62275
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62276
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62277
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62278
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62279
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62280
+2026-07-15T17:00:10.016-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62281
+2026-07-15T17:00:10.017-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62282
+2026-07-15T17:00:10.017-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62283
+2026-07-15T17:00:10.017-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62284
+2026-07-15T17:00:10.017-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62285
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62286
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62287
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62288
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62289
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62290
+2026-07-15T17:00:10.018-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62291
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62292
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62293
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62294
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62295
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62296
+2026-07-15T17:00:10.019-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62297
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62298
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62299
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62300
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62301
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62302
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 127 | Factura: 134605-TVP1-62303
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T17:00:10.020-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-71691
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72258
+2026-07-15T17:00:10.021-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72259
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72260
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72261
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72262
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72263
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72264
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72265
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72266
+2026-07-15T17:00:10.022-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72267
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72268
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72269
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72270
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam centenario | Factura: 144761-TVO1-72271
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T17:00:10.023-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-124819
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Confa versalles | Factura: 275320-NEVL5-3608
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212389
+2026-07-15T17:00:10.024-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212390
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212391
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212392
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212393
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212394
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212395
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212396
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212397
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212398
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212399
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212400
+2026-07-15T17:00:10.025-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212401
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212402
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212403
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP1-212404
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405525
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405526
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405527
+2026-07-15T17:00:10.026-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405528
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405529
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405530
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405531
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405532
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405533
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405534
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405535
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405536
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405537
+2026-07-15T17:00:10.027-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405538
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405539
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405540
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405541
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal alhambra 1 (carulla) | Factura: 361449-TPV-32892
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 109 | Factura: 361389-TVP-52985
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T17:00:10.028-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 85 | Factura: 361414-TPV2-80500
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 88  | Factura: 361332-TPV-39089
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 96 | Factura: 361438-TPV1-30692
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 96 | Factura: 361438-TPV1-30693
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-30333
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal mariachis | Factura: 361444-TPV-29382
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-FDSTA-122165
+2026-07-15T17:00:10.029-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-FDSTA-122166
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-GOH-21769
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-GOH-21772
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-GOH-21773
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 1 | Factura: 361428-TPV1-61603
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 2 | Factura: 361435-ATM01-129
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 2 | Factura: 361435-TPV1-79630
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 2 | Factura: 361435-TPV1-79776
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 2 | Factura: 361435-TPV1-80978
+2026-07-15T17:00:10.030-05:00  WARN 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa beatriz 2 | Factura: 361435-TPV1-80988
+2026-07-15T17:00:12.354-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 152 facturas faltantes.
+2026-07-15T17:00:12.356-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T17:00:12.356-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T17:13:41.603-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-07-15T17:13:41.607-05:00  INFO 17932 --- [Invoice Monitor - Gastoncito] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-07-15T17:13:51.154-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : Starting InvoiceMonitorApplication v1.0.0 using Java 17.0.2 with PID 12020 (G:\Automatizacion facturas faltantes\target\invoice-monitor-1.0.0.jar started by MIGUELDESAR in G:\Automatizacion facturas faltantes)
+2026-07-15T17:13:51.157-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-07-15T17:13:51.804-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [main] c.m.invoices.InvoiceMonitorApplication   : Started InvoiceMonitorApplication in 0.984 seconds (process running for 1.549)
+2026-07-15T18:00:00.045-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T18:00:00.047-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T18:00:00.047-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T18:00:00.049-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T18:00:00.057-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-07-15T18:00:01.715-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@360675e
+2026-07-15T18:00:01.716-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-07-15T18:00:07.038-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T18:00:10.362-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T18:00:10.362-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T18:00:10.363-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T18:00:10.363-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T18:00:10.363-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T18:00:10.363-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T18:00:10.364-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T18:00:10.364-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T18:00:10.364-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T18:00:10.364-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T18:00:10.364-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T18:00:10.365-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T18:00:10.365-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T18:00:10.365-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T18:00:10.365-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T18:00:10.366-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T18:00:10.366-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T18:00:10.366-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T18:00:10.366-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T18:00:10.366-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 85 | Factura: 361414-GOH-12702
+2026-07-15T18:00:10.367-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T18:00:10.367-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T18:00:12.591-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 21 facturas faltantes.
+2026-07-15T18:00:12.592-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T18:00:12.593-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T19:00:00.001-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T19:00:00.002-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T19:00:00.002-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T19:00:00.002-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T19:00:05.148-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T19:00:08.341-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T19:00:08.342-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T19:00:08.343-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T19:00:08.344-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T19:00:08.345-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T19:00:08.346-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T19:00:08.347-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T19:00:08.349-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T19:00:08.350-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T19:00:08.351-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T19:00:08.353-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T19:00:08.354-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T19:00:08.354-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T19:00:08.354-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T19:00:08.354-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T19:00:08.355-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza soacha | Factura: 358624-TPV-1-184119
+2026-07-15T19:00:08.355-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T19:00:08.355-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T19:00:08.355-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T19:00:08.355-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T19:00:08.356-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T19:00:08.356-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T19:00:10.619-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 21 facturas faltantes.
+2026-07-15T19:00:10.619-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T19:00:10.619-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T20:00:00.011-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T20:00:00.013-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T20:00:00.014-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T20:00:00.015-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T20:00:05.058-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T20:00:08.411-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T20:00:08.411-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T20:00:08.412-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T20:00:08.412-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T20:00:08.413-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T20:00:08.413-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T20:00:08.413-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T20:00:08.413-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T20:00:08.413-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T20:00:08.414-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T20:00:08.415-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal santa bárbara | Factura: 361445-FDSTB-143333
+2026-07-15T20:00:11.135-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 21 facturas faltantes.
+2026-07-15T20:00:11.135-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T20:00:11.136-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T21:00:00.005-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T21:00:00.007-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T21:00:00.008-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T21:00:00.010-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T21:00:05.523-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T21:00:09.080-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T21:00:09.081-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T21:00:09.082-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T21:00:09.083-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T21:00:09.084-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T21:00:09.085-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T21:00:09.086-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T21:00:09.087-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T21:00:09.088-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T21:00:09.089-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T21:00:09.090-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T21:00:09.091-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T21:00:09.092-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T21:00:09.092-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T21:00:09.093-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T21:00:09.094-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran vatel | Factura: 22069-ATMV2-32865
+2026-07-15T21:00:09.095-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T21:00:09.096-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T21:00:09.097-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T21:00:09.097-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T21:00:09.098-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T21:00:09.099-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T21:00:14.267-05:00 ERROR 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ? Error enviando correo de alerta: Mail server connection failed. Failed messages: jakarta.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketTimeoutException: Read timed out
+
+org.springframework.mail.MailSendException: Mail server connection failed. Failed messages: jakarta.mail.MessagingException: Exception reading response;
+  nested exception is:
+	java.net.SocketTimeoutException: Read timed out
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:410) ~[spring-context-support-6.1.6.jar!/:6.1.6]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.send(JavaMailSenderImpl.java:350) ~[spring-context-support-6.1.6.jar!/:6.1.6]
+	at org.springframework.mail.javamail.JavaMailSender.send(JavaMailSender.java:101) ~[spring-context-support-6.1.6.jar!/:6.1.6]
+	at com.monitor.invoices.EmailService.sendMissingInvoicesAlert(EmailService.java:44) ~[!/:1.0.0]
+	at com.monitor.invoices.InvoiceMonitorJob.monitorMissingInvoices(InvoiceMonitorJob.java:129) ~[!/:1.0.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.runInternal(ScheduledMethodRunnable.java:130) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.lambda$run$2(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at io.micrometer.observation.Observation.observe(Observation.java:499) ~[micrometer-observation-1.12.5.jar!/:1.12.5]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:124) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:96) ~[spring-context-6.1.6.jar!/:6.1.6]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+Caused by: jakarta.mail.MessagingException: Exception reading response
+	at org.eclipse.angus.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2509) ~[jakarta.mail-2.0.3.jar!/:na]
+	at org.eclipse.angus.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2205) ~[jakarta.mail-2.0.3.jar!/:na]
+	at org.eclipse.angus.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:729) ~[jakarta.mail-2.0.3.jar!/:na]
+	at jakarta.mail.Service.connect(Service.java:345) ~[jakarta.mail-2.0.3.jar!/:na]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:480) ~[spring-context-support-6.1.6.jar!/:6.1.6]
+	at org.springframework.mail.javamail.JavaMailSenderImpl.doSend(JavaMailSenderImpl.java:399) ~[spring-context-support-6.1.6.jar!/:6.1.6]
+	... 20 common frames omitted
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:283) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:309) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803) ~[na:na]
+	at java.base/java.net.Socket$SocketInputStream.read(Socket.java:966) ~[na:na]
+	at org.eclipse.angus.mail.util.TraceInputStream.read(TraceInputStream.java:107) ~[jakarta.mail-2.0.3.jar!/:na]
+	at java.base/java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[na:na]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:263) ~[na:na]
+	at org.eclipse.angus.mail.util.LineInputStream.readLine(LineInputStream.java:104) ~[jakarta.mail-2.0.3.jar!/:na]
+	at org.eclipse.angus.mail.smtp.SMTPTransport.readServerResponse(SMTPTransport.java:2489) ~[jakarta.mail-2.0.3.jar!/:na]
+	... 25 common frames omitted
+
+2026-07-15T21:00:14.297-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T21:00:14.297-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T22:00:00.003-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T22:00:00.013-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T22:00:00.013-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T22:00:00.013-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T22:00:05.090-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T22:00:08.271-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T22:00:08.271-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T22:00:08.271-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T22:00:08.271-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T22:00:08.272-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T22:00:08.272-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T22:00:08.272-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T22:00:08.272-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T22:00:08.272-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T22:00:08.273-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T22:00:08.273-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T22:00:08.273-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T22:00:08.273-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran vatel | Factura: 22069-ATMV2-32865
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T22:00:08.274-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T22:00:08.275-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T22:00:08.275-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T22:00:08.275-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T22:00:11.975-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 21 facturas faltantes.
+2026-07-15T22:00:11.976-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T22:00:11.976-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T23:00:00.013-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
+2026-07-15T23:00:00.015-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Iniciando monitoreo de facturas faltantes (Flujo en 2 pasos)...
+2026-07-15T23:00:00.016-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Consultando faltantes desde: 2026-07-01 00:00:00
+2026-07-15T23:00:00.017-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 1: Insertando datos en invoice_control...
+2026-07-15T23:00:05.187-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Paso 2: Consultando faltantes...
+2026-07-15T23:00:08.528-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ??  Se encontraron 21 facturas faltantes.
+2026-07-15T23:00:08.529-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-108
+2026-07-15T23:00:08.530-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-754
+2026-07-15T23:00:08.531-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-2307
+2026-07-15T23:00:08.532-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-7403
+2026-07-15T23:00:08.532-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-8218
+2026-07-15T23:00:08.533-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam 51 | Factura: 132742-TPV1-31677
+2026-07-15T23:00:08.534-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Cafam floresta | Factura: 59533-TPV1-64072
+2026-07-15T23:00:08.535-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro Comercial Buenavista_2 | Factura: 231490-C.A S1-2-80499
+2026-07-15T23:00:08.536-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Centro comercial unicentro yopal | Factura: 76514-ATM3-133254
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica imbanaco | Factura: 44118-EIMB-1-128224
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68383
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clinica oftalmologica  | Factura: 154033-EOFT1-68384
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Clínica San Marcel | Factura: 275315-NESL2-31586
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran plaza florencia | Factura: 6224-FL05-290124
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Gran vatel | Factura: 22069-ATMV2-32865
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Homecenter bucaramanga | Factura: 639856-TPV1-13096
+2026-07-15T23:00:08.537-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Plaza flora | Factura: 163978-TVP3-405069
+2026-07-15T23:00:08.538-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-17790
+2026-07-15T23:00:08.538-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal calle 72 | Factura: 361325-TPV1-18427
+2026-07-15T23:00:08.538-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal la castellana | Factura: 361506-TPV-53844
+2026-07-15T23:00:08.538-05:00  WARN 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   :   ? Empresa: Terminal lago 79  | Factura: 361415-POS1-31585
+2026-07-15T23:00:11.814-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.EmailService        : ??  Correo de alerta enviado a alertaaccess@gmail.com con 21 facturas faltantes.
+2026-07-15T23:00:11.816-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : Monitoreo finalizado.
+2026-07-15T23:00:11.816-05:00  INFO 12020 --- [Invoice Monitor - Gastoncito] [scheduling-1] com.monitor.invoices.InvoiceMonitorJob   : ============================================================
