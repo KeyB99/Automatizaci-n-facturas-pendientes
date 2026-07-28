@@ -1,0 +1,57 @@
+# ============================================================
+# CONFIGURACIÓN BASE DE DATOS PostgreSQL
+# ============================================================
+spring:
+  application:
+    name: "Invoice Monitor - Gastoncito"
+  
+  datasource:
+    # Reemplaza los valores con los de tu servidor
+    url: jdbc:postgresql://newtest.accesspay.pro:8888/kelowna
+    username: keyshell
+    # NOTA: Si la contrase\u00f1a contiene caracteres especiales (& # ^ etc), deben escaparse con \
+    # Ejemplo: & -> \&   # -> \#   = -> \=   : -> \:
+    password: "@7WY1y-Ard5q"
+    driver-class-name: org.postgresql.Driver
+    # Pool de conexiones (opcional pero recomendado)
+    hikari:
+      maximum-pool-size: 5
+      connection-timeout: 30000
+      idle-timeout: 600000
+
+  # ============================================================
+  # CONFIGURACIÓN CORREO GMAIL
+  # ============================================================
+  # IMPORTANTE: NO uses tu contraseña de Gmail normal.
+  # Debes crear una "Contraseña de Aplicación" en:
+  #   myaccount.google.com → Seguridad → Contraseñas de Aplicaciones
+  # Esa clave tiene 16 caracteres, ejemplo: abcd efgh ijkl mnop
+  # Escríbela sin espacios: abcdefghijklmnop
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: alertaaccess@gmail.com
+    password: ctvqxmegijsdrjef
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+# ============================================================
+# CONFIGURACIÓN DE LOGS
+# ============================================================
+logging:
+  level:
+    com.monitor.invoices: INFO
+    org.springframework.jdbc: WARN
+    org.springframework.mail: INFO
+  file:
+    name: logs/invoice-monitor.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"

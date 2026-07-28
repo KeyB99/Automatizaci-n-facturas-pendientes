@@ -37,13 +37,14 @@ public class InvoiceMonitorJob {
 
         // Lógica de 1ra semana vs resto del mes
         if (hoy.getDayOfMonth() <= 7) {
-            // Si estamos en la primera semana (días 1 a 7), ir 1 semana atrás del día 1 del mes actual
+            // Si estamos en la primera semana (días 1 a 7), ir 1 semana atrás del día 1 del
+            // mes actual
             fechaInicio = hoy.withDayOfMonth(1).minusDays(7);
         } else {
             // A partir del día 8, empezar desde el 1 del mes actual
             fechaInicio = hoy.withDayOfMonth(1);
         }
-        
+
         String fechaDesde = fechaInicio.format(DATE_FMT) + " 00:00:00";
 
         log.info("============================================================");
@@ -89,21 +90,21 @@ public class InvoiceMonitorJob {
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY iv.company, iv.prefix
                 )
-                SELECT 
+                SELECT
                    co.name,
                    ctrl.company::TEXT || '-' || ctrl.prefix || '-' || ctrl.number::TEXT AS prefix_number
                 FROM billing.invoice_control ctrl
                 INNER JOIN core.company co ON ctrl.company = co.code
                 INNER JOIN resume re
-                    ON ctrl.company = re.company 
-                    AND ctrl.prefix = re.prefix 
-                    AND ctrl.number >= re.mn 
+                    ON ctrl.company = re.company
+                    AND ctrl.prefix = re.prefix
+                    AND ctrl.number >= re.mn
                     AND ctrl.number <= re.mx
                 WHERE NOT EXISTS (
-                    SELECT 1 
-                    FROM billing.invoice iv 
+                    SELECT 1
+                    FROM billing.invoice iv
                     WHERE iv.company = ctrl.company
-                      AND iv.prefix = ctrl.prefix    
+                      AND iv.prefix = ctrl.prefix
                       AND iv.bill_number = ctrl.number::TEXT
                 )
                 ORDER BY co.name, ctrl.company, ctrl.prefix, ctrl.number
