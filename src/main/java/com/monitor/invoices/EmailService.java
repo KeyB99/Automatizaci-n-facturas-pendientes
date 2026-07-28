@@ -177,4 +177,147 @@ public class EmailService {
             log.error("❌ Error enviando correo de confirmación: {}", e.getMessage(), e);
         }
     }
+
+    /**
+     * Envía un correo HTML con la lista de resoluciones por vencerse detectadas.
+     *
+     * @param resoluciones Lista de filas con información de las resoluciones
+     */
+    public void sendExpiringResolutionsAlert(List<Map<String, Object>> resoluciones) {
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
+
+            helper.setTo(DESTINATARIO);
+            helper.setSubject("⚠️ Alerta: Resoluciones por vencerse — " + LocalDateTime.now().format(DT_FMT));
+            helper.setText(buildResolutionsHtmlBody(resoluciones), true);
+
+            mailSender.send(message);
+            log.info("✉️  Correo de alerta enviado a {} con {} resoluciones por vencerse.", DESTINATARIO, resoluciones.size());
+
+        } catch (Exception e) {
+            log.error("❌ Error enviando correo de alerta de resoluciones: {}", e.getMessage(), e);
+        }
+    }
+
+    /**
+     * Construye el cuerpo HTML del correo con la tabla de resoluciones por vencerse,
+     * agrupadas por empresa.
+     */
+    private String buildResolutionsHtmlBody(List<Map<String, Object>> rows) {
+
+        // Agrupar resoluciones por empresa
+        Map<String, List<Map<String, Object>>> porEmpresa = rows.stream()
+                .collect(Collectors.groupingBy(
+                        row -> String.valueOf(row.get("company_name"))
+                ));
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("""
+            <html>
+            <head>
+                <style>
+                    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; color: #333; }
+                    .container { background: white; border-radius: 8px; padding: 30px; max-width: 900px; margin: auto;
+                                 box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-top: 5px solid #e67e22; }
+                    h2 { color: #d35400; border-bottom: 2px solid #e67e22; padding-bottom: 8px; }
+                    h3 { color: #2c3e50; margin-top: 24px; }
+                    .badge { background: #e67e22; color: white; border-radius: 12px;
+                             padding: 2px 10px; font-size: 13px; margin-left: 8px; }
+                    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 14px; }
+                    th { background: #2c3e50; color: white; padding: 10px; text-align: left; }
+                    td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+                    tr:nth-child(even) td { background: #f9f9f9; }
+                    .footer { margin-top: 30px; font-size: 12px; color: #888; text-align: center; }
+                    .info-box { background: #fef9e7; border-left: 4px solid #f39c12; padding: 12px 16px;
+                                border-radius: 4px; margin-bottom: 20px; }
+                    .urgente { color: #c0392b; font-weight: bold; }
+                    .medio { color: #d35400; font-weight: bold; }
+                    .bajo { color: #f39c12; font-weight: bold; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h2>⚠️ Alerta: Resoluciones por vencerse</h2>
+                    <div class="info-box">
+                        <strong>🕐 Hora de revisión:</strong> """).append(LocalDateTime.now().format(DT_FMT)).append("""
+                        <br>
+                        <strong>📦 Total resoluciones en alerta:</strong> """).append(rows.size()).append("""
+                    </div>
+                """);
+
+        // Una tabla por empresa
+        for (Map.Entry<String, List<Map<String, Object>>> entry : porEmpresa.entrySet()) {
+            String empresa = entry.getKey();
+            List<Map<String, Object>> resoluciones = entry.getValue();
+
+            sb.append("<h3>🏢 ").append(empresa)
+              .append(" <span class='badge'>").append(resoluciones.size()).append("</span></h3>")
+              .append("<table>")
+              .append("<tr>")
+              .append("<th>Resolución</th>")
+              .append("<th>F. Inicial</th>")
+              .append("<th>F. Final</th>")
+              .append("<th>Días Restantes</th>")
+              .append("<th>V. Actual</th>")
+              .append("<th>V. Final</th>")
+              .append("<th>Diferencia Val.</th>")
+              .append("</tr>");
+
+            for (Map<String, Object> res : resoluciones) {
+                String enumCode = String.valueOf(res.get("enumeration_code"));
+                String fInicial = String.valueOf(res.get("initial_date"));
+                String fFinal = String.valueOf(res.get("final_date"));
+                String vActual = String.valueOf(res.get("current_value"));
+                String vFinal = String.valueOf(res.get("final_value"));
+                String difVal = String.valueOf(res.get("TOTAL"));
+                
+                int dateDifference = 0;
+                Object dateDiffObj = res.get("date_difference_days");
+                if (dateDiffObj != null) {
+                    dateDifference = ((Number) dateDiffObj).intValue();
+                }
+
+                String claseDias = "";
+                String textoDias = "";
+                if (dateDifference < 0) {
+                    claseDias = "urgente";
+                    textoDias = "Vencida hace " + Math.abs(dateDifference) + " días";
+                } else if (dateDifference == 0) {
+                    claseDias = "urgente";
+                    textoDias = "¡Vence hoy!";
+                } else {
+                    textoDias = dateDifference + " días";
+                    if (dateDifference <= 7) claseDias = "urgente";
+                    else if (dateDifference <= 30) claseDias = "medio";
+                    else claseDias = "bajo";
+                }
+
+                sb.append("<tr>")
+                  .append("<td>").append(enumCode).append("</td>")
+                  .append("<td>").append(fInicial).append("</td>")
+                  .append("<td>").append(fFinal).append("</td>")
+                  .append("<td class='").append(claseDias).append("'>").append(textoDias).append("</td>")
+                  .append("<td>").append(vActual).append("</td>")
+                  .append("<td>").append(vFinal).append("</td>")
+                  .append("<td>").append(difVal).append("</td>")
+                  .append("</tr>");
+            }
+
+            sb.append("</table>");
+        }
+
+        sb.append("""
+                    <div class='footer'>
+                        Este correo fue generado automáticamente por el monitor de facturas.<br>
+                        Ejecutándose cada 10 minutos | Sistema de Monitoreo Gastoncito
+                    </div>
+                </div>
+            </body>
+            </html>
+            """);
+
+        return sb.toString();
+    }
 }
