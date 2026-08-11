@@ -1,5 +1,6 @@
 com\monitor\invoices\EmailService.class
+com\monitor\invoices\RecentInvoicesJob.class
 com\monitor\invoices\InvoiceMonitorApplication.class
 com\monitor\invoices\InvoiceMonitorJob.class
-com\monitor\invoices\MonitorRepository.class
 com\monitor\invoices\ResolutionMonitorJob.class
+com\monitor\invoices\MonitorRepository.class

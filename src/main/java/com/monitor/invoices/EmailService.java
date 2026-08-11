@@ -179,6 +179,137 @@ public class EmailService {
     }
 
     /**
+     * Envía un correo HTML con el reporte de estado de facturas recientes por dispositivo.
+     *
+     * @param rows Lista de filas retornadas por getRecentInvoicesStatus()
+     */
+    public void sendRecentInvoicesStatusAlert(List<Map<String, Object>> rows) {
+        try {
+            MimeMessage message = mailSender.createMimeMessage();
+            MimeMessageHelper helper = new MimeMessageHelper(message, true, "UTF-8");
+
+            helper.setTo(DESTINATARIO);
+            helper.setSubject("📊 Reporte Estado Facturas Recientes — " + LocalDateTime.now().format(DT_FMT));
+            helper.setText(buildRecentInvoicesHtmlBody(rows), true);
+
+            mailSender.send(message);
+            log.info("✉️  Correo de reporte de facturas recientes enviado a {} con {} dispositivos.", DESTINATARIO, rows.size());
+
+        } catch (Exception e) {
+            log.error("❌ Error enviando correo de reporte de facturas recientes: {}", e.getMessage(), e);
+        }
+    }
+
+    /**
+     * Construye el cuerpo HTML del reporte de estado de facturas recientes,
+     * agrupado por empresa.
+     */
+    private String buildRecentInvoicesHtmlBody(List<Map<String, Object>> rows) {
+
+        // Agrupar por empresa
+        Map<String, List<Map<String, Object>>> porEmpresa = rows.stream()
+                .collect(Collectors.groupingBy(
+                        row -> String.valueOf(row.get("company"))
+                ));
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("""
+            <html>
+            <head>
+                <style>
+                    body { font-family: Arial, sans-serif; background: #f4f4f4; padding: 20px; color: #333; }
+                    .container { background: white; border-radius: 8px; padding: 30px; max-width: 1000px; margin: auto;
+                                 box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-top: 5px solid #2980b9; }
+                    h2 { color: #1a5276; border-bottom: 2px solid #2980b9; padding-bottom: 8px; }
+                    h3 { color: #2c3e50; margin-top: 24px; }
+                    .badge { background: #2980b9; color: white; border-radius: 12px;
+                             padding: 2px 10px; font-size: 13px; margin-left: 8px; }
+                    table { width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 13px; }
+                    th { background: #1a5276; color: white; padding: 10px; text-align: left; }
+                    td { padding: 8px 10px; border-bottom: 1px solid #eee; }
+                    tr:nth-child(even) td { background: #f2f8fd; }
+                    .footer { margin-top: 30px; font-size: 12px; color: #888; text-align: center; }
+                    .info-box { background: #eaf4fb; border-left: 4px solid #2980b9; padding: 12px 16px;
+                                border-radius: 4px; margin-bottom: 20px; }
+                    .date-old   { color: #c0392b; font-weight: bold; }
+                    .date-mid   { color: #d35400; font-weight: bold; }
+                    .date-ok    { color: #27ae60; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <h2>📊 Reporte: Estado de Facturas Recientes por Dispositivo</h2>
+                    <div class="info-box">
+                        <strong>🕐 Generado:</strong> """).append(LocalDateTime.now().format(DT_FMT)).append("""
+                        <br>
+                        <strong>📦 Total dispositivos:</strong> """).append(rows.size()).append("""
+                        <br>
+                        <em>Los dispositivos se muestran ordenados por fecha de última factura (más antiguos primero).</em>
+                    </div>
+            """);
+
+        for (Map.Entry<String, List<Map<String, Object>>> entry : porEmpresa.entrySet()) {
+            String empresa = entry.getKey();
+            List<Map<String, Object>> dispositivos = entry.getValue();
+
+            sb.append("<h3>🏢 ").append(empresa)
+              .append(" <span class='badge'>").append(dispositivos.size()).append(" dispositivos</span></h3>")
+              .append("<table>")
+              .append("<tr>")
+              .append("<th>#</th>")
+              .append("<th>Dispositivo</th>")
+              .append("<th>Nick Name</th>")
+              .append("<th>Última Factura</th>")
+              .append("<th>Prefijo</th>")
+              .append("<th>Última Fecha</th>")
+              .append("</tr>");
+
+            int idx = 1;
+            for (Map<String, Object> d : dispositivos) {
+                String device    = String.valueOf(d.get("device"));
+                String nickName  = String.valueOf(d.get("nick_name"));
+                String bill      = String.valueOf(d.get("bill"));
+                String prefix    = String.valueOf(d.get("prefix"));
+                String lastDate  = String.valueOf(d.get("last_date"));
+
+                // Colorear según antigüedad de la última factura
+                String dateClass = "date-ok";
+                try {
+                    java.time.LocalDateTime ldt = java.time.LocalDateTime.parse(
+                            lastDate.replace(" ", "T").substring(0, 19));
+                    long hoursAgo = java.time.Duration.between(ldt, java.time.LocalDateTime.now()).toHours();
+                    if (hoursAgo > 48) dateClass = "date-old";
+                    else if (hoursAgo > 24) dateClass = "date-mid";
+                } catch (Exception ignored) { /* si no parsea, mantiene color verde */ }
+
+                sb.append("<tr>")
+                  .append("<td>").append(idx++).append("</td>")
+                  .append("<td>").append(device).append("</td>")
+                  .append("<td>").append(nickName).append("</td>")
+                  .append("<td>").append(bill).append("</td>")
+                  .append("<td>").append(prefix).append("</td>")
+                  .append("<td class='").append(dateClass).append("'>").append(lastDate).append("</td>")
+                  .append("</tr>");
+            }
+
+            sb.append("</table>");
+        }
+
+        sb.append("""
+                    <div class='footer'>
+                        Este correo fue generado automáticamente por el monitor de facturas.<br>
+                        Ejecutándose a las 8:00 AM y 5:00 PM | Sistema de Monitoreo Gastoncito
+                    </div>
+                </div>
+            </body>
+            </html>
+            """);
+
+        return sb.toString();
+    }
+
+    /**
      * Envía un correo HTML con la lista de resoluciones por vencerse detectadas.
      *
      * @param resoluciones Lista de filas con información de las resoluciones

@@ -96,6 +96,48 @@ public class MonitorRepository {
     }
 
     /**
+     * Consulta el estado de facturas recientes por dispositivo (última factura emitida).
+     * Retorna dispositivos activos de tipo CPA, ATM o PG, excluyendo empresas específicas,
+     * ordenados por fecha de última factura ascendente (los más atrasados primero).
+     *
+     * @return Lista de dispositivos con su última factura.
+     */
+    public List<Map<String, Object>> getRecentInvoicesStatus() {
+        String query = """
+                WITH recent_invoices AS (
+                    SELECT DISTINCT ON (iv.device)
+                        iv.device,
+                        iv.bill_number,
+                        iv.prefix,
+                        iv.instant AS last_date
+                    FROM billing.invoice iv
+                    WHERE iv.instant >= '2026-08-01 00:00:00'
+                      AND iv.instant < NOW()
+                      AND iv.prefix IS NOT NULL
+                    ORDER BY iv.device, iv.instant DESC
+                )
+                SELECT\s
+                    co.code             AS company_code,
+                    co.name             AS company,
+                    dv.title            AS device,
+                    dv.nick_name,
+                    ri.bill_number      AS bill,
+                    ri.prefix,
+                    ri.last_date
+                FROM recent_invoices ri
+                INNER JOIN machine.device dv ON ri.device = dv.code
+                INNER JOIN core.company co   ON dv.company = co.code
+                INNER JOIN core.unity un     ON dv.device_type = un.code
+                WHERE dv.status = 'A'
+                  AND un.initials IN ('CPA', 'ATM', 'PG')
+                  AND co.code NOT IN (137225, 101791, 148834, 147707, 147016, 322488, 147688, 147502)
+                ORDER BY ri.last_date ASC
+                """;
+
+        return jdbcTemplate.queryForList(query);
+    }
+
+    /**
      * Consulta las resoluciones de facturación próximas a vencer.
      *
      * @return Lista de resoluciones con sus diferencias de días.
