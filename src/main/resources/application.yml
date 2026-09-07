@@ -17,7 +17,8 @@ spring:
     hikari:
       maximum-pool-size: 5
       connection-timeout: 30000
-      idle-timeout: 600000
+      idle-timeout: 120000
+      max-lifetime: 240000
 
   # ============================================================
   # CONFIGURACIÓN CORREO GMAIL

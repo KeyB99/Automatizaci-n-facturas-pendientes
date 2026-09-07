@@ -12,8 +12,13 @@ import java.util.Map;
  * Job que consulta el estado de la última factura emitida por dispositivo
  * y envía un reporte por correo a las 8:00 AM y 5:00 PM todos los días.
  *
- * <p>Dispositivos incluidos: tipos CPA, ATM y PG, estado activo.</p>
- * <p>Empresas excluidas: códigos 137225, 101791, 148834, 147707, 147016, 322488, 147688, 147502.</p>
+ * <p>
+ * Dispositivos incluidos: tipos CPA, ATM y PG, estado activo.
+ * </p>
+ * <p>
+ * Empresas excluidas: códigos 137225, 101791, 148834, 147707, 147016, 322488,
+ * 147688, 147502.
+ * </p>
  */
 @Service
 public class RecentInvoicesJob {
@@ -29,10 +34,10 @@ public class RecentInvoicesJob {
     }
 
     /**
-     * Se ejecuta a las 8:00 AM y a las 5:00 PM todos los días.
-     * Cron: segundo=0, minuto=0, hora=8 y 17, día=*, mes=*, díasemana=*
+     * Se ejecuta a las 2:15 PM todos los días.
+     * Cron: segundo=0, minuto=15, hora=14, día=*, mes=*, díasemana=*
      */
-    @Scheduled(cron = "0 0 8,17 * * ?")
+    @Scheduled(cron = "0 15 14 * * ?")
     public void reportRecentInvoicesStatus() {
 
         log.info("============================================================");

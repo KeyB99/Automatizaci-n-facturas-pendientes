@@ -30,13 +30,11 @@ public class MonitorRepository {
                         MIN(iv.bill_number::BIGINT) AS mn,
                         MAX(iv.bill_number::BIGINT) AS mx
                     FROM billing.invoice iv
-                    INNER JOIN core.company co ON iv.company = co.code
-                    INNER JOIN core.company_info ci ON iv.company = ci.company
                     WHERE iv.instant >= ?::TIMESTAMP
-                      --AND ci.value = 'GASTONCITO'
                       AND iv.prefix IS NOT NULL
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
-                    GROUP BY co.name, iv.company, iv.prefix
+                    GROUP BY iv.company, iv.prefix
+                    HAVING (MAX(iv.bill_number::BIGINT) - MIN(iv.bill_number::BIGINT)) <= 100000
                 )
                 INSERT INTO billing.invoice_control
                 SELECT
@@ -71,6 +69,7 @@ public class MonitorRepository {
                       AND iv.prefix IS NOT NULL
                       AND iv.prefix NOT IN ('FLY', 'GO', 'FLYPASS', 'fly')
                     GROUP BY iv.company, iv.prefix
+                    HAVING (MAX(iv.bill_number::BIGINT) - MIN(iv.bill_number::BIGINT)) <= 100000
                 )
                 SELECT
                    co.name,
@@ -90,6 +89,7 @@ public class MonitorRepository {
                       AND iv.bill_number = ctrl.number::TEXT
                 )
                 ORDER BY co.name, ctrl.company, ctrl.prefix, ctrl.number
+                LIMIT 1000
                 """;
 
         return jdbcTemplate.queryForList(selectSql, fechaDesde);
